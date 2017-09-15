@@ -13,10 +13,10 @@ template: `
 export class AppComponent {
   public masterMealList: Meal[] =
   [
-    new Meal("Chapo Ndengu", "Io ndengu iliweza", 70),
-    new Meal("Ugali Sukuma", "Wagwan Wagwan!", 70),
-    new Meal("Mukimo", "Kalicome through", 80),
-    new Meal("Mchele Madondo", "Ilibidi niongeze kachapo", 60)
+    new Meal("Chapo Ndengu", "Io ndengu iliweza", 600),
+    new Meal("Ugali Sukuma", "Wagwan Wagwan!", 400),
+    new Meal("Mukimo", "Kalicome through", 500),
+    new Meal("Mchele Madondo", "Ilibidi niongeze kachapo", 700)
   ];
 
   selectedMeal: Meal = null;
