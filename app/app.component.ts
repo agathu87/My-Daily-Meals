@@ -23,4 +23,9 @@ export class AppComponent {
   showDetails(clickedMeal: Meal) {
     this.selectedMeal = clickedMeal;
   }
+
+  finishedEditing() {
+    this.selectedMeal = null;
+  }
+
 }
