@@ -24,4 +24,15 @@ export class MealsListComponent{
     }
     return total;
   }
+
+  getAverage(){
+    var average: number=0;
+    var total = this.getTotal();
+    average = total/this.childMealsList.length;
+    return average;
+  }
+   public selectedFoodieness:string="all";
+   onChange(optionFromMenu){
+     this.selectedFoodieness = optionFromMenu;
+   }
 }
