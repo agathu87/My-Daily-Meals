@@ -20,7 +20,7 @@ import { FoodienessPipe } from './foodieness.pipe';
     NewMealComponent,
     EditMealComponent,
     FoodienessPipe],
-
+bootstrap: [ AppComponent ]
 })
 
 export class AppModule { }
