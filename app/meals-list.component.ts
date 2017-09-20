@@ -15,4 +15,13 @@ export class MealsListComponent{
     console.log(mealToEdit);
     this.clickSender.emit(mealToEdit);
   }
+
+  getTotal(){
+    var total: number=0;
+    for (var i=0; i<this.childMealsList.length;i++){
+      var currentAmount: number = this.childMealsList[i].amount;
+      total += currentAmount;
+    }
+    return total;
+  }
 }
